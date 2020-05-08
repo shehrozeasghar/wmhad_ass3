@@ -1,0 +1,732 @@
+.banner {
+    display: inline-block;
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid gray;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    /* color: white; */
+    font-size: 22px;
+}
+
+.imgsizee {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 16px;
+    font-size: 8px;
+    width: 15px;
+    position: absolute;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: blue;
+    color: white;
+    left: 3em;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: blue;
+    color: white;
+    left: 6em;
+}
+
+.fa-instagram {
+    background: blue;
+    color: white;
+    left: 9em;
+}
+
+
+/* Twitter */
+
+.fa-youtube {
+    background: blue;
+    color: white;
+    left: 12em;
+}
+
+.fa-whatsapp {
+    background: blue;
+    color: white;
+    left: 15em;
+}
+
+.menuu {
+    background-color: #f0f0f0;
+    height: 4em;
+    width: 100%;
+}
+
+.menuulogo {
+    width: 15%;
+    height: 80%;
+    margin: 0 0 0 8em;
+    display: inline;
+}
+
+.home {
+    display: inline-block;
+    position: absolute;
+    left: 37em;
+}
+
+.homebutton {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+}
+
+.homebutton:hover {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px sold black;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.about {
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    left: 42em;
+}
+
+.aboutbutton {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.aboutbutton:hover {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px sold black;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.aboutcntnt {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.aboutcntnt a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.aboutcntnt a:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.about:hover .aboutcntnt {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.about:hover .aboutbutton {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.service {
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    left: 47em;
+}
+
+.servicbtn {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.servicbtn:hover {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px sold black;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.serviccntnt {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.serviccntnt a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.serviccntnt a:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.service:hover .serviccntnt {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.service:hover .servicbtn {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.future {
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    left: 57em;
+}
+
+.futurebtn {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.futurebtn:hover {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px sold black;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.futurecntnt {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.futurecntnt a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.futurecntnt a:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.future:hover .futurecntnt {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.future:hover .futurebtn {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.media {
+    display: inline-block;
+    position: absolute;
+    left: 66em;
+}
+
+.mediabutton {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+}
+
+.mediabutton:hover {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px sold black;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.news {
+    display: inline-block;
+    position: absolute;
+    left: 71em;
+}
+
+.newsbutton {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+}
+
+.newsbutton:hover {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px sold black;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.donation {
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    left: 76em;
+}
+
+.donationbtn {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.donationbtn:hover {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px sold black;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.donationcntnt {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.donationcntnt a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.donationcntnt a:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.donation:hover .donationcntnt {
+    display: block;
+    cursor: pointer;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.donation:hover .donationbtn {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.div1 {
+    height: 3em;
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    /* display: inline-block; */
+    /* float: left; */
+}
+
+.uk {
+    margin: 9px 0 7px 0;
+    position: absolute;
+    right: 19.5em;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.donate {
+    margin: 9px 0 7px 0;
+    position: absolute;
+    right: 12em;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.smit {
+    margin: 9px 0 7px 0;
+    position: absolute;
+    right: 4em;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.poster {
+    text-align: center;
+}
+
+.msgline {
+    height: 3em;
+    background-color: blue;
+    text-align: center;
+    /* display: inline-block; */
+    /* float: left; */
+}
+
+.introduction {
+    text-align: center;
+}
+
+.intro {
+    color: blue;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.intropara {
+    padding-left: 13em;
+    padding-right: 13em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.intropart {
+    background-color: #f0f0f0;
+    padding-bottom: 6em;
+}
+
+.stats {
+    background-color: blue;
+}
+
+.food {
+    height: 290px;
+    width: 25%;
+    background-color: blue;
+    text-align: center;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.foodlogo {
+    margin: 4em 0 0 0;
+}
+
+.count {
+    font-size: 3em;
+    color: cornsilk;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.desc {
+    color: cornsilk;
+    font-weight: bold;
+}
+
+.serviceboxes {
+    text-align: center;
+    margin: 3em 0px 3em 0px;
+}
+
+.sadqa {
+    background-color: white;
+    height: 10em;
+    width: 25em;
+    box-shadow: 0 0 3px 3px lightblue;
+    text-align: center;
+    display: inline-block;
+}
+
+.imgsadqa {
+    height: 50px;
+    width: 50px;
+    padding: 2em 0 0 0;
+    cursor: pointer;
+}
+
+.mission {
+    color: blue;
+    font-size: 1.5em;
+    font-family: Didot;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.events {
+    color: blue;
+    font-size: 1.5em;
+    font-family: Didot;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    right: 15em;
+}
+
+.underlinee {
+    padding-bottom: 7px;
+    text-decoration: none;
+    border-bottom: 3px solid green;
+}
+
+.eventdetail {
+    border: 2px solid white;
+    height: 15em;
+    width: 15em;
+    color: darkgray;
+    position: absolute;
+    right: 19em;
+}
+
+.upcominghe {
+    background-color: #f0f0f0;
+    height: 3em;
+    width: 18em;
+    /* box-shadow: 0 0 3px 3px lightblue; */
+    text-align: left;
+    margin: 0 2em 1em 0;
+    display: inline-block;
+}
+
+.upcomingho {
+    background-color: #f0f0f0;
+    height: 3em;
+    width: 18em;
+    /* box-shadow: 0 0 3px 3px lightblue; */
+    text-align: left;
+    display: inline-block;
+}
+
+.upcomingit {
+    background-color: #f0f0f0;
+    height: 3em;
+    width: 18em;
+    /* box-shadow: 0 0 3px 3px lightblue; */
+    text-align: left;
+    display: block;
+}
+
+.upcominghth {
+    background-color: #f0f0f0;
+    height: 3em;
+    width: 18em;
+    /* box-shadow: 0 0 3px 3px lightblue; */
+    text-align: left;
+    display: inline-block;
+}
+
+.clickable {
+    padding: 10px 0 0 0;
+    cursor: pointer;
+}
+
+.inlinetext {
+    display: inline;
+    padding: 0 0 0 2em;
+}
+
+.whiteback {
+    background-color: white;
+    display: block;
+    width: 100%;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+.imgcolumn {
+    float: inherit;
+    width: 100%;
+    padding: 2px;
+}
+
+
+/* Clear floats after image containers */
+
+.imgrow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgrow {
+    display: flex;
+}
+
+.blackback {
+    background-color: black;
+    height: 18em;
+    width: 100%;
+}
+
+.contactdetail {
+    padding: 2em 3em 0em 6em;
+}
+
+.contact {
+    color: gray;
+    margin: 8px 0px 0px 0px;
+}
+
+.lineheight {
+    line-height: 1px;
+}
+
+.contactdetail {
+    display: inline-block;
+}
+
+.connectus {
+    color: honeydew;
+    /* display: inline-block; */
+    position: relative;
+    right: -3em;
+    /* top: 167em; */
+}
+
+.connectbuttons {
+    position: absolute;
+    top: 168em;
+    right: 25em;
+}
+
+.logoss {
+    height: 3em;
+    width: 3em;
+    margin: 0em 0em 3em 0em;
+    position: relative;
+}
+
+.logoss:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: -2;
+}
+
+.logoss:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: -2;
+}
